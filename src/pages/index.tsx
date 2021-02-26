@@ -2,7 +2,7 @@ import Head from "next/head";
 import { GetServerSideProps } from "next";
 
 import { CountdownProvider } from "../contexts/CountdownContext";
-import { ChallengesProvider } from "../contexts/ChallengeContext";
+import { ChallengesProvider } from "../contexts/ChallengesContext";
 
 import { CompletedChallenges } from "../components/CompletedChallenges";
 import { ExperienceBar } from "../components/ExperienceBar";
