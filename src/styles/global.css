@@ -7,8 +7,10 @@
 :root {
   --white: #fff;
   --background: #f2f3f5;
+  --dark-background: #1a2336;
   --gray-line: #dcdde0;
   --text: #666666;
+  --dark-text: #b9b9b9;
   --text-highlight: #b3b9ff;
   --title: #2e384d;
   --red: #e83f5b;
@@ -16,6 +18,7 @@
   --blue: #5965e0;
   --blue-dark: #4953b8;
   --blue-twitter: #1aa9e0;
+  --purple: #5b70e0;
 }
 
 @media (max-width: 1080px) {
@@ -31,6 +34,11 @@
 
 body {
   background: var(--background);
+  color: var(--text);
+}
+
+body.dark {
+  background: var(--dark-background);
   color: var(--text);
 }
 

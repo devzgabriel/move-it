@@ -1,0 +1,10 @@
+.container {
+  height: 100vh;
+  background: var(--purple);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 0.6rem 1.4rem 0.6rem;
+}

@@ -1,11 +1,16 @@
 .container {
   height: 100vh;
-  max-width: 992px;
+  /* max-width: 992px; */
   margin: 0 auto;
-  padding: 2.5rem 2rem;
+  flex: 1;
+  padding: 2.5rem 9rem;
 
   display: flex;
   flex-direction: column;
+}
+
+.dark {
+  background: var(--dark-background);
 }
 
 .container section {
