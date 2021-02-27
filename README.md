@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Move it
 
-## Getting Started
+## Estude e trabalhe de maneira organizada com a técnica Pomodoro no Move it!
 
-First, run the development server:
+### Você já pode testar se quiser! Só clicar nesse link: [move-it](https://move-it-dun.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
+<hr>
+
+### Veja como é:
+
+<p align="center">
+  <img alt="move-it" src=".github/lightHome.png" width="100%">
+</p>
+<p align="center">
+  <img alt="move-it" src=".github/lightLevel.png" width="100%">
+</p>
+<p align="center">
+  <img alt="move-it" src=".github/moveit.gif" width="100%">
+</p>
+
+<!-- ### Também em Dark Mode
+
+<p align="center">
+  <img alt="move-it" src=".github/darkHome.png" width="100%">
+</p>
+ -->
+<hr>
+
+### Mobile (**Em breve**)
+
+<!-- <p align="center" >
+  <img alt="move-it" src=".github/mbHome.png" width="40%">
+  _______
+  <img alt="move-it" src=".github/mbHome2.png" width="40%">
+</p> -->
+
+<hr>
+
+## Como executar na sua máquina e testar
+
+<br>
+
+### **Instalando e executando o projeto**
+
+<br>
+
+No terminal digite todos os comandos abaixo:
+
+```Bash
+git clone https://github.com/devzgabriel/move-it.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```Bash
+cd move-it
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```Bash
+yarn install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```Bash
+yarn start
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### **Executando testes**
 
-## Learn More
+Os testes serão acrescentados em breve!
 
-To learn more about Next.js, take a look at the following resources:
+<hr>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## **Criado por Gabriel Silva ministrada pela Rocketseat**
